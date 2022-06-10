@@ -1,0 +1,114 @@
+.container{
+    /*border: 3px solid green;*/
+    padding: 15px;
+    }
+    
+    header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*border: 3px solid green;*/
+    padding: 0 15px;
+    }
+    
+    header img{
+    width: 100px;
+    height: 100px;
+    }
+    header nav ul{
+    display: flex;
+    }
+    
+    header nav ul li{
+    margin-left: 10px;
+    font-size: 25px;
+    list-style: none;
+    }
+    
+    header nav ul li a{
+    text-decoration: none;    
+    }
+    
+    header nav ul li a:hover{
+    color: coral; 
+    border-bottom: 1px solid coral;   
+    }
+    
+    .center-container{
+    display: flex;
+    /*border: 3px solid green;*/
+    margin-top: 10px;
+    padding: 10px;
+    box-shadow:rgba(50, 50, 93, 0.25) 0px 6px 12px -2px rgba(0,0,0,0.3) 0px 3px 7px -3px;
+    }   
+    
+    
+    .left{
+    /*border: 3px solid green;*/
+    margin-right: 10px;
+    height: fit-content;
+    padding: 20px;
+    box-shadow:rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+    
+    .right{
+    /*border: 3px solid green;*/
+    margin-bottom: 10px;
+    height: fit-content;
+    padding: 10px;
+    box-shadow:rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+    
+    .top-right{
+    /*border: 3px solid green;*/  
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+    
+    .bottom-right{
+    /*border: 3px solid green;*/
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+    
+    .btn1{
+    background-color: coral;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    }
+    
+    .btn1:hover{
+    background-color: transparent;
+    color: red;
+    /*border: 2px solid green;*/
+    }
+    
+    .first-img{
+    width: 550px;
+    height: 250px;
+    }
+    
+    .second-img{
+    width: 170px;
+    height: 200px;
+    margin-right: 10px; 
+    }
+    
+    .third-img{
+    width: 170px;
+    height: 200px;
+    margin-right: 10px;
+    }
+    
+    .copy{
+    text-align: center;
+    display: block;
+    }
+    
